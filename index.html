@@ -40,7 +40,7 @@
         }
 
         .cta-button {
-            background-color: #ff5a5f;
+            background-color: #28a745; /* Verde chamativo */
             color: white;
             padding: 15px 30px;
             font-size: 1.125rem;
@@ -49,7 +49,7 @@
         }
 
         .cta-button:hover {
-            background-color: #e94f50;
+            background-color: #218838;
         }
 
         .highlight-section {
@@ -62,10 +62,17 @@
             color: #e74c3c;
             font-size: 2rem;
             margin-bottom: 20px;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .highlight-section p {
+            font-weight: bold;
         }
 
         .content-section {
             padding: 40px 20px;
+            text-align: center;
         }
 
         .content-section blockquote {
@@ -75,9 +82,18 @@
             color: #555;
         }
 
+        .content-section p:first-child {
+            color: white;
+            background-color: red;
+            display: inline;
+            padding: 5px;
+            font-weight: bold;
+        }
+
         .sales-section {
             background-color: #fff;
             padding: 50px 20px;
+            text-align: center;
         }
 
         .sales-card {
@@ -100,7 +116,13 @@
             font-size: 1.5rem;
             font-weight: bold;
             color: #ff5a5f;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
+        }
+
+        .discount {
+            font-size: 1rem;
+            color: #28a745;
+            margin-bottom: 10px;
         }
 
         footer {
@@ -118,39 +140,75 @@
             transform: translateX(-50%);
             z-index: 10;
         }
+
+        .bold-red-box {
+            font-weight: bold;
+            color: white;
+            background-color: #ff0000;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <!-- Cabeçalho -->
     <header>
-        <a href="#sales" class="btn btn-danger btn-lg floating-btn">Quero adquirir o método</a>
+        <a href="#sales" class="btn btn-success btn-lg floating-btn">QUERO FICAR MILIONÁIO EM 2025</a> 
     </header>
 
     <!-- Seção de Destaque -->
     <section id="highlight" class="highlight-section">
-        <h2>PRESTE ATENÇÃO!</h2>
-        <p>Essa vai ser sua última chance de começar 2025 milionário!</p>
+        <h2><strong><u>PRESTE ATENÇÃO!</u></strong></h2>
+        <p><strong>Essa vai ser sua última chance de começar 2025 milionário!</strong></p>
+        <form action="https://www.mercadopago.com.br/checkout/v1/redirect" method="GET">
+            <button type="submit" class="btn btn-primary">Comprar Agora</button>
+        </form>
     </section>
 
     <!-- Seção de Conteúdo Principal -->
     <section id="main-content" class="content-section">
         <div class="container">
+            <p><strong>LEIA O TEXTO ABAIXO PARA DESCOBRIR O PORQUE ESTOU DIVULGANDO ESSE MÉTODO QUE VAI TER DAR A CHANCE DE GANHAR NA MEGA SENA DA VIRADA.</strong></p>
             <p>Tenho certeza que você está pensando:</p>
             <blockquote>
-                “Se esse método dá certo... porque ela não aplica e fica milionária sozinha?”
+                “Se esse método da certo... porque ela não aplica e fica milionária sozinha?”
             </blockquote>
             <p>Ai é que está: já apliquei e fui uma das ganhadoras.</p>
+            <p>E agora você deve estar pensando “mentira!”,</p>
+            <p>Ou</p>
+            <blockquote>
+                “Então porque ela não aplica e ganha de novo?”
+            </blockquote>
+            <p>Porque eu estou cansada de ser enganada pelos políticos e poderosos desse país.
+            E acho que você também deve estar!</p>
+            <p>Ou você acha que eles não têm pessoas infiltradas dentro do jogo para ganharem uma parcela desses milhões?</p>
+            <p>Além de roubarem todo o nosso dinheiro com impostos.
+            Você e eu, somos enganados o tempo todo.</p>
+            <form action="https://www.mercadopago.com.br/checkout/v1/redirect" method="GET">
+                <button type="submit" class="btn btn-primary">Comprar Agora</button>
+            </form>
+            <p>Por isso decidi compartilhar de uma vez por todas esse método, para que todos que acreditarem nele, possam ganhar e juntos quebrarmos a banca, e colocar o dedo na ferida que mais dói... no bolso deles.</p>
+            <p>Mas acredito que você também deva se questionar “se todo mundo aplicar esse método, não vai sobrar dinheiro, ou vai ser muito pouco”</p>
+            <p>Ai que você se engana, além do prêmio previsto ser de R$ 600.000.000,00 milhões, ou seja se 600 pessoas ganharem já daria 1 milhão de reais pra cada!
+            Mas não acredito que elas irão acreditar no que estou falando, por isso você vai ser o escolhido para fazer parte desse pequeno grupo que irá ter acesso ao conteúdo.
+            Imagine poder ficar milionário e de quebra fazer com que os políticos paguem o preço!</p>
         </div>
     </section>
 
     <!-- Seção de Vendas -->
     <section id="sales" class="sales-section">
-        <h2>TER ACESSO AO MÉTODO NOVO GANHADOR DA MEGA DA VIRADA!</h2>
+        <form action="https://www.mercadopago.com.br/checkout/v1/redirect" method="GET">
+            <button type="submit" class="btn btn-primary mb-4">Comprar Agora</button>
+        </form>
+        <h2 class="bold-red-box" style="text-align: center;">CLIQUE EM COMPRAR AGORA E AUMENTE SUAS CHANCES DE SER O NOVO MILIONÁRIO DE 2025</h2>
         <div class="sales-card">
-            <img src="https://i.ibb.co/rM5gdv6/0f32a5ef-5497-47d4-9ac7-51f9db1ca6ee.jpg" alt="Imagem do Método Mega Sena">
+            <img src="https://i.ibb.co/x7kMN8n/Seja-o-novo-milion-rio-3.png" alt="Imagem do Método Mega Sena">
             <div class="product-details">
                 <h3>Método Exclusivo</h3>
-                <div class="price">R$ 9,99</div>
+                <div class="price">R$ 24,90</div>
+                <div class="discount">20% de desconto no PIX! Aceitamos cartão de débito e crédito.</div>
                 <form action="https://www.mercadopago.com.br/checkout/v1/redirect" method="GET">
                     <button type="submit" class="btn btn-primary">Comprar Agora</button>
                 </form>
